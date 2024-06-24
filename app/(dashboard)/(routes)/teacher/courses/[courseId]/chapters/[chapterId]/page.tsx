@@ -14,7 +14,6 @@ import { ChapterVideoForm } from "./_components/chapter-video-form";
 import { ChapterActions } from "./_components/chapter-actions";
 
 
-export const maxDuration = 300
 
 const ChapterIdPage = async ({
   params

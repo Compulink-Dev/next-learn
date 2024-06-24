@@ -15,7 +15,6 @@ import { AttachmentForm } from "./_components/attachment-form";
 import { ChaptersForm } from "./_components/chapters-form";
 import { Actions } from "./_components/actions";
 
-export const maxDuration = 300
 
 const CourseIdPage = async ({
   params
