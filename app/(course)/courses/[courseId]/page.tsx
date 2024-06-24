@@ -1,6 +1,8 @@
 import { db } from "@/lib/db";
 import { redirect } from "next/navigation";
 
+export const maxDuration = 300
+
 const CourseIdPage = async ({
   params
 }: {
@@ -28,5 +30,5 @@ const CourseIdPage = async ({
 
   return redirect(`/courses/${course.id}/chapters/${course.chapters[0].id}`);
 }
- 
+
 export default CourseIdPage;
